@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Registo</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<h1>Criar nova conta</h1>
+<fieldset>
+    <legend>Intruduza os seus dados</legend>
+    <from method="post">
+        <h4>Utilizador</h4>
+        <input type='text' name='utilizador' required>
+        <h4>Endereço de email</h4>
+        <input type='text' name='email' required>
+        <h4>Palavra-passe</h4>
+        <input type='password' name='passe' required>
+        <h4>Confirme a password</h4>
+        <input type='password' name='cpasse' required>
+        <p><br></p>
+        <input type='submit' name="submeter">
+    </from>
+</fieldset>
+
+{% if erro %}
+{{ erro}}
+{% endif %}
+
+</body>
+</html>
