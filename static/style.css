@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+fieldset{
+  padding:50;
+  width: 250px;
+  margin:auto;
+}
+
+input, textarea {
+    padding: 5px 15px;
+}
+
+input[type=text], input[type=password] {
+    width: 256px;
+
+table, td {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    border: 30px solid lightgray;
+    border-collapse: collapse;
+}
+
+navbar user {
+    float: right;
+    padding: 12px;
+    color: #ff8;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #66ffff;
+}
+
+navbar {
+    width: 100%;
+    background-color: #ff0066;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #ff0066;
+}
+
+.active {
+    background-color: #5b5;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+    }
+}
+
+.pagbar {
+    padding: 12px;
+    background-color: #555;
+}
+
+.pagbar a {
+    padding: 12px;
+    color: #39d;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.pagbar current {
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.pagbar a:hover {
+    background-color: #000;
+}
